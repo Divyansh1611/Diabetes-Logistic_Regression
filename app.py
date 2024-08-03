@@ -38,5 +38,6 @@ def home():
             
         return render_template('single_prediction.html',result=result)
 
-if __name__ == '__main__':
-    app.run(debug=True)
+# if __name__ == '__main__':
+#     app.run(debug=True)
+# uncomment these to run on local
